@@ -15,7 +15,7 @@ console.log = function () {
 const fs = require('fs');
 const util = require('util');
 const path = require('path');
-var { Readable } = require('stream');
+const { Readable } = require('stream');
 
 //////////////////////////////////////////
 ///////////////// VARIA //////////////////
@@ -237,7 +237,7 @@ function getHelpString() {
     return out;
 }
 
-const { Readable } = require('stream');
+var { Readable } = require('stream');
 
 const SILENCE_FRAME = Buffer.from([0xF8, 0xFF, 0xFE]);
 
